@@ -1,0 +1,37 @@
+.ba-header-wrap{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+	top: 0;
+	right: 0;
+    padding-top:20px;
+    background: $dark-gray;
+    opacity:0.3;
+    @include breakpoint(medium){
+        padding-top:10px;
+
+    }
+}
+.ba-main-menu{
+    text-transform: uppercase;
+    font-size: 24px;
+    a{
+        color:  #fff;
+        margin-left:30px;
+        &:hover{
+            color:$body-font-color;
+        }
+    }
+}
+.off-canvas{
+    .menu{
+        a{
+            padding: 10px;
+            color:  #fff;
+        margin-left:30px;
+        &:hover{
+            color:$body-font-color;
+        }
+        }
+    }
+}
